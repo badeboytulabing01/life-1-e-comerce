@@ -1,0 +1,94 @@
+/* media query for login page */
+
+/* @media (max-width: 360px) {
+ 
+  #login_page #btn-login input, .google
+  {
+   width: 300px;
+   margin-left: 2%;
+ }
+
+ #login_page #btn-login p
+{
+ margin-left: 30%;
+}
+#loginForm
+{
+ margin-top: 2%;
+}
+
+#loginForm input
+{
+ width: 300px;
+}
+
+#login_page #lifeimage img
+{
+width: 290px;
+}
+
+#login_page h1
+{
+font-size: 15px;
+}
+
+}
+ */
+
+
+
+
+
+
+
+@-webkit-keyframes fadein 
+{
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein
+ {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout 
+{
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout
+ {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+/* end key franmes */
+
+
+

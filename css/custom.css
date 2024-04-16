@@ -1,0 +1,657 @@
+    body
+    {
+      background-color: #F6F6F5;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+/*start css for navigation*/
+  .navbar
+  {
+    background: #BE1E0C;
+  }
+
+  .navbar-nav a
+  {
+   color: #fff;
+
+  }
+  
+  .navbar .count
+{
+   position: absolute;
+  left: 22px;
+  top: 2px;
+  border-radius: 50%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: red;
+  width: 15px;
+  height: 15px;
+}
+
+   .navbar-nav a:hover
+  {
+   background-color: #FFA832;
+   color: #fff;
+   border-radius: 5px;
+
+  }
+  /*end of css navigation*/
+
+  /*start css for search bar*/
+  #logo img 
+  {
+    width: 70px;
+  }
+
+  #search_bar #search_input button
+  {
+        background-color: #EE2B14;
+        color: #fff;
+  }
+
+ #search_bar #search_input input
+  {
+        background-color: #DBDADA;
+  }
+
+  #searc_back
+  {
+        background-color: #fff;
+  }
+  /*end of css searchbar*/
+
+  /*start css for category carousel*/
+
+  #slider  .category_prdoucts li a
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+
+    #slider  .category_prdoucts li a:hover
+  {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #E51901;
+  }
+
+    #slider  .category_prdoucts ul 
+  {
+    list-style-type: none;
+    background-color: #BE1E0C;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  /*end of css category caraousel*/
+
+  /*start css for title edit*/
+  .title_edit
+  {
+    color: #5A5959;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #home_sale img
+  {
+   transition: transform .4s;
+  }
+
+  #home_sale img:hover
+  {
+    transform: scale(1.1);
+  }
+
+/*end of css title edit*/
+
+/*start css for catgegory image */
+
+#categories_image img
+{
+  width: 60px;
+}
+
+#categories_image  .col-md-2
+{
+  background-color: #fff;
+  border: 1px solid #C5C4C4;
+}
+
+/*end of css for category image*/
+
+/*start css for login page*/
+ #login_page .main-content{
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgba(0,0,0,.4);
+  margin: 5em auto;
+  display: flex;
+}
+#login_page .company__info{
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+#login_page .fa-android{
+  font-size:3em;
+}
+@media screen and (max-width: 640px) {
+  #login_page .main-content{width: 90%;}
+  #login_page .company__info{
+    display: none;
+  }
+  #login_page .login_form{
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+  }
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+  #login_page .main-content{width: 70%;}
+}
+.row > h2{
+  color:#CF1802;
+}
+#login_page .login_form{
+  background-color: #fff;
+  border-top-right-radius:20px;
+  border-bottom-right-radius:20px;
+  border-top:1px solid #ccc;
+  border-right:1px solid #ccc;
+}
+#login_page form{
+  padding: 0 2em;
+}
+#login_page .form__input{
+  width: 100%;
+  border:0px solid transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #CF1802;
+  padding: 1em .5em .5em;
+  padding-left: 2em;
+  outline:none;
+  margin:1.5em auto;
+  transition: all .5s ease;
+}
+#login_page .form__input:focus{
+  border-bottom-color: #008080;
+  box-shadow: 0 0 5px rgba(0,80,80,.4); 
+  border-radius: 4px;
+}
+#login_page .btn{
+  transition: all .5s ease;
+  width: 70%;
+  border-radius: 30px;
+  color:#CF1802;
+  font-weight: 600;
+  background-color: #fff;
+  border: 1px solid #CF1802;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+#login_page .btn:hover, .btn:focus{
+  background-color: #CF1802;
+  color:#fff;
+}
+
+/*end of css for login page*/
+
+/*statrt css for forgot password*/
+#forgot{
+    border: 1px solid red;
+    width: 60%;
+    margin-top: 50px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 51, 51) 0px 3px 8px;
+  }
+
+  #forgot p{
+    font-size: 20px;
+    font-family: bodoni mt;
+  }
+
+  #forgot form input[type="email"]{
+    width: 240px;
+  }
+
+  #forgot form input[type="password"]{
+    width: 240px;
+  }
+
+  #link{
+    margin-top: 20px;
+  }
+/*end of csss for forgot password*/
+
+/*start css for signup*/
+  #signup h1
+  {
+    font-size: 23px;
+    color: #7C7A79;
+  }
+
+   #signup button
+  {
+    width: 400px;
+    margin-left: 8%;
+  }
+
+   #signup label
+  {
+    color: #ACABAB;
+  }
+
+  #signup h1
+  {
+    font-size: 23px;
+    color: #7C7A79;
+  }
+
+    #signup #link_login a
+  {
+    text-decoration: none;
+  font-size: 12px;
+  }
+ 
+ #signup #signup_background
+ {
+  background-color: #fff;
+  box-shadow: rgba(255, 51, 51) 0px 3px 8px;
+ }
+/*end of css for signup*/
+
+/*start css for footer*/
+
+#footer a
+{
+  text-decoration: none;
+  color: black;
+}
+
+#footer a:hover
+{
+color: #E51901;
+}
+
+/*end of css for footer*/
+
+
+/*start css for personal info*/
+#personal_info .user_info
+{
+  background-color: #BE1E0C;
+}
+
+#personal_info .user_info img
+{
+  width: 100px;
+  height: 90px;
+}
+
+#personal_info a
+{
+ text-decoration: none;
+}
+
+#personal_info label
+{
+  color: #7D7D7D;
+}
+
+
+#personal_info #profile_bg
+{
+ background-color: #fff;  
+   box-shadow: rgba(255, 51, 51) 0px 3px 8px;
+}
+
+
+/*end of css for personal info*/
+
+/*start css for change information*/
+#change_name button
+{
+  width: 300px;
+  text-transform: uppercase;
+}
+
+#change_name 
+{
+background-color: #fff;
+}
+
+
+#change_name h2
+{
+ color: #7C7A79;
+}
+
+/*end of css for change information */
+
+/*start css for create account*/
+ #c_account
+ {
+  background-color: #fff; 
+ }
+
+  #c_account input
+ {
+width: 200px;
+ }
+ #c_account .imagePreview 
+ {
+    width: 100%;
+    height: 180px;
+    background-position: center center;
+    background:url(../img/icon/profile.jpg);
+    border-radius: 50%; 
+    background-color:#fff;
+    background-size: cover;
+   background-repeat:no-repeat;
+    display: inline-block;
+   box-shadow:0px -3px 6px 2px rgba(0,0,0,0.2);
+}
+ #c_account .btn-primary
+{
+  display:block;
+  border-radius:0px;
+  box-shadow:0px 4px 6px 2px rgba(0,0,0,0.2);
+  margin-top:-5px;
+}
+ #c_account .imgUp
+{
+  margin-bottom:15px;
+}
+ #c_account .del
+{
+  position:absolute;
+  top:0px;
+  right:15px;
+  width:30px;
+  height:30px;
+  text-align:center;
+  line-height:30px;
+  background-color:rgba(255,255,255,0.6);
+  cursor:pointer;
+}
+ #c_account .imgAdd
+{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background-color:#4bd7ef;
+  color:#fff;
+  box-shadow:0px 0px 2px 1px rgba(0,0,0,0.2);
+  text-align:center;
+  line-height:30px;
+  margin-top:0px;
+  cursor:pointer;
+  font-size:15px;
+}
+
+/*end of css for create profile*/
+
+/*start css for view image*/
+
+#view_product
+{
+  background-color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#view_product img
+{
+  width: 30px;
+}
+
+#view_product #product_image img
+{
+  width: 300px;
+}
+
+#view_product p
+{
+ font-size: 12px;
+}
+
+#view_product label
+{
+ font-size: 12px;
+}
+
+#view_product #product_price
+{
+  background-color: #F6F6F5;
+  color: #F75803; 
+}
+
+
+
+#view_product #color_category span
+ {
+font-size: 13px;
+}
+
+#view_product #add_tocart
+{
+  background-color: #FEF1E9;
+  color: black;
+}
+
+#view_product #button_buy button
+{
+  width: 200px;
+}
+
+#view_product #button_buy input
+{
+  width: 200px;
+}
+
+#view_product #button_buy a
+{
+  width: 200px;
+}
+
+#view_product input
+{
+  width: 150px;
+}
+
+/*end of css for view product*/
+/*start css for buy now*/
+#buy_now table
+{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#buy_now #check_out
+{
+  background-color: #fff;
+}
+
+#buy_now #check_out span
+{
+  font-weight: bold;
+  font-size: 19px;
+  color: #F06013;
+}
+/*end of css for buy now*/
+/*start css for place order*/
+#place_order
+{
+  background-color: #fff;
+}
+#place_order input 
+{
+  width: 300px;
+}
+
+
+/*end of css for place order*/
+/*start css for my purchase*/
+#my_purchase table {
+  background-color: #fff;
+}
+#my_purchase table a
+{
+  text-decoration: none;
+  color: black;
+}
+/*end of css for my purchase*/
+
+/*start css for employee sidebar*/
+
+#sidebar
+{
+  background-color:#fff;
+   box-shadow: rgba(255, 51, 51) 0px 3px 8px;
+}
+
+#sidebar a
+{
+  color: black;
+  font-weight: bold;
+}
+
+#sidebar img
+{
+  width: 30px;
+}
+
+#sidebar li
+{
+ background-color: #D40515;
+ width: 130px;
+text-shadow: 2px 3px 5px #fff;
+transition: transform .4s;
+}
+
+
+#sidebar li:hover
+{
+  transform: scale(1.1);
+}
+/*end of css for sidepar*/
+/*start css for employee dashboard*/
+#employeeDashboard #user
+{
+  border-radius: 10%;
+  background-color: #043BB8;
+  width: 250px;
+}
+
+#employeeDashboard #user label
+{
+  color: #fff;
+  font-size: 25px;
+}
+
+#employeeDashboard #user h4
+{
+  color: #fff;
+  font-weight: bold;
+}
+
+/*end of user*/
+
+#employeeDashboard #order
+{
+  border-radius: 10%;
+  background-color: #B62505;
+}
+
+#employeeDashboard #order label
+{
+  color: #fff;
+  font-size: 25px;
+}
+
+#employeeDashboard #order h4
+{
+  color: #fff;
+  font-weight: bold;
+}
+
+/*end of order*/
+
+
+#employeeDashboard #sales
+{
+  border-radius: 10%;
+  background-color: #6F064C;
+}
+
+#employeeDashboard #sales label
+{
+  color: #fff;
+  font-size: 25px;
+}
+
+#employeeDashboard #sales h4
+{
+  color: #fff;
+  font-weight: bold;
+}
+
+/*end of sales*/
+
+
+#employeeDashboard #products
+{
+  border-radius: 10%;
+  background-color: #03A00F;
+}
+
+#employeeDashboard #products label
+{
+  color: #fff;
+  font-size: 25px;
+}
+
+#employeeDashboard #products h4
+{
+  color: #fff;
+  font-weight: bold;
+}
+/*end of css for css for employee dashboard*/
+
+/*start css for category table*/
+#category_table
+{
+  background-color: #fff;
+  box-shadow: rgba(255, 51, 51) 0px 3px 8px;
+}
+
+#category_table img
+{
+  width: 80px;
+}
+
+
+/*end of category table*/
+
+/*start css for product view*/
+
+#product_view
+{
+ background-color: #fff;
+ box-shadow: rgba(255, 51, 51) 0px 3px 8px;
+}
+
+#product_view a
+{
+ width: 200px;
+}
+
+/*end of css for product view*/
+
